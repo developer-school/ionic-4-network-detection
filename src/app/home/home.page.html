@@ -1,14 +1,16 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar [color]="networkStatus && networkStatus.connected ? 'primary' : 'dark'">
     <ion-title>
-      Ionic Blank
+      Network Detection
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <h1>Connection status: {{networkStatus && networkStatus.connected ? "Online" : "Offline"}}</h1>
+    
+    <p>See more Ionic content at <a href="https://developer.school">developer.school</a></p>
   </div>
+
 </ion-content>

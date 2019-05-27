@@ -1,5 +1,7 @@
 {
   "name": "ionic-network-detection",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

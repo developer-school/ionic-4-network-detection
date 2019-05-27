@@ -1,0 +1,7 @@
+{
+  "appId": "school.developer.network",
+  "appName": "network",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
